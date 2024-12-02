@@ -1,0 +1,10 @@
+[package]
+name = "EternalKeepSafeVault"
+version = "1.0.0"
+authors = []
+
+[addresses]
+EternalKeepSafeVault = "0x3542114A9593D6817129E40D5E4C0FB98DBCA18AD12A5E545B0C7008B72DBB55"
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-framework", rev = "mainnet" }

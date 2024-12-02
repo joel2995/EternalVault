@@ -1,0 +1,16 @@
+[package]
+name = "blc"
+version = "1.0.0"
+authors = []
+
+[addresses]
+blc = "586173850dd704f3630422a37e21311ba7a9708832c7b4352f1ecdbccd6c0fb1"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
